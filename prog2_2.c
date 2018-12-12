@@ -32,7 +32,7 @@ void * generatePrimes(void* arguement) { //amt of bits for each num
 int main(int argc, char const *argv[]) {
   printf("%s\n","Assignment #2-1, Mariano Gutierrez, margutierrez75@gmail.com");
   if(argc < 3) {
-    printf("%s\n", "Not enough args, numbe of pseudo prime and bit length");
+    printf("%s\n", "Not enough args, number of pseudo prime and bit length");
     return 1;
   }
 
