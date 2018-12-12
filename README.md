@@ -19,8 +19,10 @@ prog2_2.c
     the numbers are then printed each on a new line.
     
     Note: the numbers will be at least B bits, this is the purpose of the arg. 
+    Note: the program will also output guaranteed prime numbers as told this was ok too.
     
     
     Compilation line: gcc prog2_2.c prog2_1.c -l pthread -lgmp  -g -o  prog2_2
+    
 
     
