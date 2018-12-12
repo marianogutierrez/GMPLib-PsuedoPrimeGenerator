@@ -20,6 +20,8 @@ prog2_2.c
     
     Note: the numbers will be at least B bits, this is the purpose of the arg. 
     Note: the program will also output guaranteed prime numbers as told this was ok too.
+    For exclusively psuedo the mpz_probab_prime condition would mereley be changed to ==1 vs >= 1
+    to exclude the 2 that indicates for sure prime.
     
     
     Compilation line: gcc prog2_2.c prog2_1.c -l pthread -lgmp  -g -o  prog2_2
