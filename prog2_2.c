@@ -73,6 +73,7 @@ int main(int argc, char const *argv[]) {
     }
   }
 
+  free(threads);
   tSafeDestruct(numberList); // free list mem.
   return 0; /// will kill all the threads pg.623 Kerrisk
 }
