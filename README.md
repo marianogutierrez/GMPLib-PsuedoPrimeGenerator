@@ -1,4 +1,4 @@
-prog2_1.h && prog2_1.c:
+## prog2_1.h && prog2_1.c:
     This program implments a singly linked list in C in order to use the list
     as a queue. My implementation implements memory managemnet to ensure I don't
     have garbage my, e.g. remove the head pointer so I must adjust the list, but
@@ -10,13 +10,13 @@ prog2_1.h && prog2_1.c:
     
     Note: The programs' functions are all thead safe via use of mutexes.
     
-prog2_2.c
+## prog2_2.c
     Arguments: K (number of pseudo primes to print) and B (number of bits )
     This program makes use of the first to create a queue in order to 
     produce psuedo prime numbers. In order to produce large amount of numbers
-    the program makes use of the gmp library, used by inlucding <gmp.h>, first downloading of course,
-    the program is then hardocoded to send four threads to produce the prime numbers
-    the numbers are then printed each on a new line.
+    the program makes use of the gmp library, used by including <gmp.h> (first downloaded on the local machine of course),
+    the program is then hardcoded to send four threads to produce the prime numbers.
+    The numbers are then printed each on a new line.
     
     Note: the numbers will be at least B bits, this is the purpose of the arg. 
     Note: the program will also output guaranteed prime numbers as told this was ok too.
