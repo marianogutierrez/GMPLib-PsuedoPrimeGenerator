@@ -4,7 +4,7 @@
 #include "prog2_1.h"
 
 // constructor that allocates it all on the heap
-// all pointers within the struct MUST be malloc;d
+// all pointers within the struct MUST be malloc'd
 TSAFELIST* tsafeConstruct() {
   TSAFELIST *list = (TSAFELIST*) malloc(sizeof(TSAFELIST));
   (list -> mutex) = (pthread_mutex_t*) malloc(sizeof(pthread_mutex_t));
@@ -29,7 +29,7 @@ void tSafeDestruct(TSAFELIST *list) {
   // Safer to simply call this then free then set ptr to NULL
 }
 
-// Essentially Add Last Seems very legit and I tested it and it is working
+// Essentially addLast()
 void tSafeEnqueue(TSAFELIST* list, mpz_t num) {
   pthread_mutex_lock(list -> mutex); // lock before ds manipulation..
   TSAFENODE *newNode = (TSAFENODE*)malloc(sizeof(TSAFENODE));
