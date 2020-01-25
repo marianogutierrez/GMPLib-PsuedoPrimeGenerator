@@ -24,7 +24,7 @@
    to exclude the 2 that indicates for sure prime.
     
     
-   Compilation line: gcc prog2_2.c prog2_1.c -l pthread -lgmp  -g -o  prog2_2
+   Compilation line: ```gcc prog2_2.c prog2_1.c -l pthread -lgmp  -g -o  prog2_2```
     
 
     
