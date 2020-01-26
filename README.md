@@ -26,5 +26,7 @@
     
    Compilation line: ```gcc prog2_2.c prog2_1.c -l pthread -lgmp  -g -o  prog2_2```
     
-
+## Helpful links/sources:
+- https://gmplib.org
+- https://gmplib.org/manual/Integer-Functions.html#Integer-Functions
     
