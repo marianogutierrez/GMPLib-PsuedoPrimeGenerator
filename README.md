@@ -24,8 +24,8 @@
    to exclude the 2 that indicates for sure prime.
     
     
-   Compilation line: ```gcc prog2_2.c prog2_1.c -l pthread -lgmp  -g -o  prog2_2```
-   Execute ```./prog2_2 8 10 ``` (The number of prime numebers followed by the number of bits for each)
+   - Compilation line: ```gcc prog2_2.c prog2_1.c -l pthread -lgmp  -g -o  prog2_2```
+   - Execute ```./prog2_2 8 10 ``` (The number of prime numebers followed by the number of bits for each)
     
 ## Helpful links/sources:
 - https://gmplib.org
